@@ -1,5 +1,7 @@
 # Discord.js v13 Music Bot
 Music bot which using **Distube** package to play music
+❌ Slash Command
+✅ Message Content Command
 
 ## Main Packages:
 - distube v3.0.0-0
