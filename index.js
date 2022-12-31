@@ -25,7 +25,6 @@ module.exports = client;
 
 client.config = require("./config");
 
-const { SpotifyPlugin } = require("@distube/spotify");
 const { SoundCloudPlugin } = require("@distube/soundcloud");
 let spotifyoptions = {
   parallel: true,
@@ -56,7 +55,6 @@ client.distube = new DisTube(client, {
   youtubeDL: true,
   updateYouTubeDL: true,
   plugins: [
-    new SpotifyPlugin(spotifyoptions),
     new SoundCloudPlugin()
   ]
 })
