@@ -140,4 +140,4 @@ client.distube.on(`finish`, queue => {
 
 keepAlive();
 
-client.login(process.env.token);
+client.login('token here');
