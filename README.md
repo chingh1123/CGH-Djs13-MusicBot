@@ -1,4 +1,5 @@
 # Discord.js v13 Music Bot
+Music bot which using **Distube** package to play music
 
 ## Main Packages:
 - distube v3.0.0-0
@@ -12,5 +13,7 @@
 ```
 git clone https://github.com/chingh1123/CGH-Djs13-MusicBot.git
 ```
+## Refer from:
+- [Musicium (@Tomato6966)](https://github.com/Tomato6966/Musicium)
 ### Support Server:
 - https://discord.gg/ZaExNbkjPt
