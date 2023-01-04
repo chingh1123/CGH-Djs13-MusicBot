@@ -26,16 +26,7 @@ module.exports = client;
 client.config = require("./config");
 
 const { SoundCloudPlugin } = require("@distube/soundcloud");
-let spotifyoptions = {
-  parallel: true,
-  emitEventsAfterFetching: true,
-}
-if (client.config.spotify_api.enabled) {
-  spotifyoptions.api = {
-    clientId: client.config.spotify_api.clientId,
-    clientSecret: client.config.spotify_api.clientSecret,
-  }
-}
+
 client.distube = new DisTube(client, {
   emitNewSongOnly: true,
   leaveOnEmpty: true,
