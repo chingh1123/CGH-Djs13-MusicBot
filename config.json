@@ -1,5 +1,5 @@
 {
-    "prefix": "gh ",
+    "prefix": "",
     "mongooseConnectionString": "",
     "ksoftapi": ""
 }
