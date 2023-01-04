@@ -21,10 +21,6 @@ module.exports = async (client) => {
         }
     });
 
-    const { DiscordTogether } = require('discord-together');
-
-    client.discordTogether = new DiscordTogether(client);
-
     // Events
     const eventFiles = await globPromise(`${process.cwd()}/events/*.js`);
     eventFiles.map((value) => require(value));
